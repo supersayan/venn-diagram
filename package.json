@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "npx run browser-sync -sw"
+    "test": "browser-sync start -sw"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "venn.js": "^0.2.20"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.14",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   }
