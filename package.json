@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "npx run browser-sync -sw"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "d3": "^7.0.0",
+    "d3": "^4.13.0",
     "venn.js": "^0.2.20"
   },
   "devDependencies": {
