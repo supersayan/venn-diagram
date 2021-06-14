@@ -1,0 +1,19 @@
+{
+  "name": "venn-diagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run browser-sync -sw"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.0.0",
+    "venn.js": "^0.2.20"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

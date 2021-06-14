@@ -1,0 +1,16 @@
+var sets = [{sets : [0], label : '[ 1, 2, 3, 4, 5, 6 ]', size : 50,}, 
+            {sets : [1], label : '[ 1, 2, 3, 4, 5, 6 ]', size: 50},
+            {sets : [2], label : '[ 1, 2, 3, 4, 5, 6 ]', size : 100}, 
+            {sets : [3], label : '[ 1, 2, 3, 4, 5, 6 ]', size: 100},
+            {sets : [0,1], size:1},
+            {sets : [0,2], size:1},
+            {sets : [0,3], size:14},
+            {sets : [1,2], size:6},
+            {sets : [1,3], size:0},
+            {sets : [2,3], size:1},
+            {sets : [0,2,3], size:1},
+            {sets : [0,1,2], size:0},
+            {sets : [0,1,3], size:0},
+            {sets : [1,2,3], size:0},
+            {sets : [0,1,2,3], size:0}
+            ];
